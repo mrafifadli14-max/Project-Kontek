@@ -1,0 +1,27 @@
+.app-main {
+  padding-bottom: var(--space-page);
+}
+
+header > div {
+  padding-inline: var(--space-page);
+  padding-block: 0.875rem;
+}
+
+main > #role-banner {
+  margin-bottom: var(--space-section);
+  padding: 0.875rem 1rem;
+}
+
+@media (max-width: 640px) {
+  header > div {
+    align-items: stretch;
+  }
+
+  header > div > :last-child {
+    width: 100%;
+  }
+
+  main {
+    margin-top: 1rem;
+  }
+}

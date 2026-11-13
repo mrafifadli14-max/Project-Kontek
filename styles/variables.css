@@ -1,0 +1,12 @@
+:root {
+  --color-page: #f1f5f9;
+  --color-surface: #ffffff;
+  --color-border: #e2e8f0;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-primary: #2563eb;
+  --space-page: clamp(1rem, 3vw, 2rem);
+  --space-section: clamp(1rem, 2vw, 1.5rem);
+  --radius-card: 0.875rem;
+  --shadow-card: 0 1px 3px rgb(15 23 42 / 0.08);
+}
